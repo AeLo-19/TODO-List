@@ -48,10 +48,10 @@ class Home extends React.Component {
 		let tasks = this.state.tasks;
 		return (
 			<div className="container d-flex flex-column">
-				<header className="todo-header text-center mb-3">
-					<h1 className="display-3">Lista de Tareas</h1>
-				</header>
 				<section className="TaskList">
+					<header className="todo-header text-center mb-3">
+						<h1 className="display-3">Lista de Tareas</h1>
+					</header>
 					<form onSubmit={this.handleAddTask} className="text-center">
 						<input
 							className="my-5 mx-auto display-4"
