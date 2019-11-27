@@ -3,3 +3,8 @@ tasks:
 ports:
   - port: 8080
     onOpen: open-browser
+
+vscode:
+  extensions:
+    - dsznajder.es7-react-js-snippets@2.4.4:Kc9C56uOv5JC3HsILBW+og==
+    - burkeholland.simple-react-snippets@1.2.2:aB/gV0ExPn8v6vEZNUjoWA==
